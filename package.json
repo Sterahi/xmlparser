@@ -1,0 +1,21 @@
+{
+  "name": "xmlparser",
+  "version": "0.0.1",
+  "description": "Simple to JSON parser.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elizabeth Murray",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.6",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
